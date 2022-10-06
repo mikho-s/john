@@ -1,0 +1,25 @@
+.footer {
+
+    &__content {}
+
+    &__social {}
+
+    &__copy {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+    &__item {
+        font-size: 30px;
+
+        &:hover {
+            color: #FF6464;
+        }
+    }
+}

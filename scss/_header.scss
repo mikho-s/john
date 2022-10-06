@@ -1,0 +1,39 @@
+.header {
+    &__content {
+        max-width: 1052px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    &__menu {}
+}
+
+.menu {
+
+    &__body {}
+
+    &__list {
+        height: 82px;
+        padding: 10px 0;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            margin: 0 0 0 33px;
+        }
+    }
+
+    &__link {
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        transition: color 0.3s ease 0s;
+
+        @media (min-width: ($md2+px)) {
+            &:hover {
+                color: #FF6464;
+            }
+        }
+    }
+}
